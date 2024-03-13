@@ -1,13 +1,13 @@
 {
-  "name": "medleb-users-api",
-  "author": "e-oummal",
-  "licence": "",
-  "version": "1.8.0",
-  "private": false,
+  "name": "pharmacy-service-backend",
+  "version": "1.1.0",
+  "description": "Medications Project",
+  "license": "ISC",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "build": "vite build"
+    "start": "nodemon server"
   },
+  
   "dependencies": {
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
@@ -21,5 +21,5 @@
     "sequelize": "^6.37.1",
     "tedious": "^18.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {"nodemon": "^2.0.19"}
 }
