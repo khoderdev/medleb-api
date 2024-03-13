@@ -6,8 +6,8 @@
   "private": false,
   "scripts": {
     "dev": "vite --host",
-    "server": "nodemon server.js",
-    "start": "vite preview",
+    "start": "nodemon server.js",
+    "preview": "vite preview",
     "build": "vite build",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
